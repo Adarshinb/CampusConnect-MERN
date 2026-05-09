@@ -63,7 +63,6 @@ A full-featured Campus Social Networking & Management Web Application built usin
 - Axios
 - Material UI (MUI)
 - Tailwind CSS
-- Context API / Redux Toolkit
 - Socket.io Client
 
 ## Backend
@@ -79,50 +78,12 @@ A full-featured Campus Social Networking & Management Web Application built usin
 
 ---
 
-# 📁 Project Structure
-
-```bash
-CampusConnect-MERN/
-│
-├── backend/
-│   ├── config/
-│   ├── controllers/
-│   ├── middleware/
-│   ├── models/
-│   ├── routes/
-│   ├── socket/
-│   ├── uploads/
-│   ├── utils/
-│   ├── server.js
-│   └── package.json
-│
-├── frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── api/
-│   │   ├── components/
-│   │   ├── context/
-│   │   ├── layouts/
-│   │   ├── pages/
-│   │   ├── routes/
-│   │   ├── services/
-│   │   ├── socket/
-│   │   ├── utils/
-│   │   ├── App.jsx
-│   │   └── main.jsx
-│   └── package.json
-│
-└── README.md
-```
-
----
-
 # ⚙️ Installation
 
 ## Clone Repository
 
 ```bash
-git clone https://github.com/your-username/CampusConnect-MERN.git
+git clone https://github.com/Adarshinb/CampusConnect-MERN.git
 cd CampusConnect-MERN
 ```
 
@@ -160,8 +121,6 @@ npm install react-router-dom axios
 npm install @mui/material @emotion/react @emotion/styled
 npm install tailwindcss @tailwindcss/vite
 npm install socket.io-client
-npm install react-hot-toast
-npm install lucide-react
 ```
 
 ---
@@ -215,17 +174,6 @@ Socket.io is used for:
 
 ---
 
-# 📌 Future Enhancements
-
-- Video Calling
-- AI Chatbot
-- Attendance System
-- Assignment Upload
-- Campus Event Management
-- Push Notifications
-
----
-
 # 👨‍💻 Author
 
 Adarshin B Suresh
@@ -234,14 +182,4 @@ Adarshin B Suresh
 - Full Stack Trainer
 - MCA Graduate
 
-GitHub:
-https://github.com/Adarshinb
 
-LinkedIn:
-https://www.linkedin.com/in/adarshin-b-suresh
-
----
-
-# ⭐ Support
-
-If you like this project, give it a ⭐ on GitHub.
