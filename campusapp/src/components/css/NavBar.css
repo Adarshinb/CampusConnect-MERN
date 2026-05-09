@@ -1,0 +1,84 @@
+.app-bar {
+  background: linear-gradient(135deg, #3a4a6b 0%, #1a2a4a 100%) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 24px !important;
+}
+
+.logo {
+  font-weight: 700 !important;
+  color: #fff !important;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-button {
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-weight: 500 !important;
+  text-transform: capitalize !important;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease !important;
+}
+
+.nav-button:hover {
+  color: #fff !important;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  transform: translateY(-2px);
+}
+
+.highlight-button {
+  font-weight: 600 !important;
+  letter-spacing: 0.5px;
+  text-transform: capitalize !important;
+  margin-left: 16px !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2) !important;
+  transition: all 0.3s ease !important;
+}
+
+.highlight-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3) !important;
+}
+
+.app-bar-spacer {
+  height: 80px; /* Adjust based on your AppBar height */
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+  .toolbar {
+    padding: 0 16px !important;
+  }
+  
+  .nav-links {
+    gap: 4px;
+  }
+  
+  .highlight-button {
+    margin-left: 8px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .app-bar-spacer {
+    height: 64px;
+  }
+  
+  .logo {
+    font-size: 1.1rem !important;
+  }
+}

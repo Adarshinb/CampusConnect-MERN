@@ -1,0 +1,18 @@
+/* Add any additional custom styles here if needed */
+
+/* Example of a custom animation for the connect button */
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+/* Apply the animation to the connect button */
+.MuiButton-containedPrimary {
+    animation: pulse 2s infinite;
+}
+
+/* Remove animation after connection is made */
+.MuiButton-containedPrimary:disabled {
+    animation: none;
+}
